@@ -40,7 +40,7 @@ public class SmartParkingBoy implements Parkable {
 
     @Override
     public Parkable getChild(int number) {
-        return (Parkable) parkingLots.get(number);
+        return parkingLots.get(number);
     }
 
     @Override

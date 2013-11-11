@@ -9,7 +9,7 @@ public class TestSuperManager {
     private ParkingLot parkingLotTwo;
     private SmartParkingBoy smartParkingBoy;
     private Manager manager;
-    private SuperManager manager1;
+    private Manager manager1;
     private ParkingLot parkingLotThree;
 
     @Before
@@ -25,7 +25,7 @@ public class TestSuperManager {
         manager.add(smartParkingBoy);
 
         parkingLotThree = new ParkingLot(10, 3);
-        manager1 = new SuperManager();
+        manager1 = new Manager();
         manager1.add(parkingLotThree);
         manager1.add(manager);
     }
