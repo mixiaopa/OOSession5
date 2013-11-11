@@ -4,12 +4,12 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class TestSuperManager {
+public class TestBiggerManager {
     private ParkingLot parkingLot;
     private ParkingLot parkingLotTwo;
     private SmartParkingBoy smartParkingBoy;
     private Manager manager;
-    private Manager manager1;
+    private Manager biggerManager;
     private ParkingLot parkingLotThree;
 
     @Before
@@ -25,27 +25,27 @@ public class TestSuperManager {
         manager.add(smartParkingBoy);
 
         parkingLotThree = new ParkingLot(10, 3);
-        manager1 = new Manager();
-        manager1.add(parkingLotThree);
-        manager1.add(manager);
+        biggerManager = new Manager();
+        biggerManager.add(parkingLotThree);
+        biggerManager.add(manager);
     }
 
     @Test
     public void shouldAskParkingBoyToPark() throws Exception {
         Car car = new Car(001);
 
-        Ticket ticket = manager1.parkCar(car);
+        Ticket ticket = biggerManager.parkCar(car);
 
-        assertThat(car, is(manager1.getCar(ticket)));
+        assertThat(car, is(biggerManager.getCar(ticket)));
     }
 
     @Test
     public void shouldPrintOutResult() throws Exception {
         Car car = new Car(001);
 
-        Ticket ticket = manager1.parkCar(car);
-        manager1.printResult();
+        Ticket ticket = biggerManager.parkCar(car);
+        biggerManager.printResult();
 
-        assertThat(car, is(manager1.getCar(ticket)));
+        assertThat(car, is(biggerManager.getCar(ticket)));
     }
 }

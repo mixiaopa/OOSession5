@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/SuperManager.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/SmartParkingBoy.java" afterPath="$PROJECT_DIR$/src/java/SmartParkingBoy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/TestSuperManager.java" afterPath="$PROJECT_DIR$/test/java/TestSuperManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/java/TestSuperManager.java" afterPath="$PROJECT_DIR$/test/java/TestBiggerManager.java" />
     </list>
     <ignored path="ParkingLot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +18,7 @@
     <file path="/Manager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384131176340" ignored="false" />
     <file path="/Component.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384091673386" ignored="false" />
     <file path="/Parkable.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384093096617" ignored="false" />
-    <file path="/TestSuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384181369389" ignored="false" />
+    <file path="/TestSuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384181582863" ignored="false" />
     <file path="/SuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384179275641" ignored="false" />
     <file path="$PROJECT_DIR$/test/java/TestPrintResult.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384092289434" ignored="false" />
     <file path="/Dummy.txt" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384180361558" ignored="false" />
@@ -92,10 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSuperManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/java/TestSuperManager.java">
+      <file leaf-file-name="TestBiggerManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/java/TestBiggerManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-0.35694823">
+            <state line="6" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.057534248">
               <folding />
             </state>
           </provider>
@@ -134,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/java/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/java/SmartParkingBoy.java" />
         <option value="$PROJECT_DIR$/test/java/TestSuperManager.java" />
+        <option value="$PROJECT_DIR$/test/java/TestBiggerManager.java" />
       </list>
     </option>
   </component>
@@ -553,7 +551,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19280575" sideWeight="0.52110815" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47889182" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47889182" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -728,9 +726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestSuperManager.java">
+    <entry file="file://$PROJECT_DIR$/test/java/TestBiggerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="457" selection-end="457" vertical-scroll-proportion="-0.35694823">
+        <state line="6" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.057534248">
           <folding />
         </state>
       </provider>
