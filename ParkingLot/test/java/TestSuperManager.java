@@ -1,9 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -11,9 +8,8 @@ public class TestSuperManager {
     private ParkingLot parkingLot;
     private ParkingLot parkingLotTwo;
     private SmartParkingBoy smartParkingBoy;
-    private List<Parkable> parkingBoys;
     private Manager manager;
-    private SuperManager superManager;
+    private SuperManager manager1;
     private ParkingLot parkingLotThree;
 
     @Before
@@ -22,34 +18,34 @@ public class TestSuperManager {
         smartParkingBoy = new SmartParkingBoy();
         smartParkingBoy.add(parkingLot);
 
-        parkingBoys = new ArrayList<Parkable>();
-        parkingBoys.add(smartParkingBoy);
-        manager = new Manager(parkingBoys);
         parkingLotTwo = new ParkingLot(2, 2);
+
+        manager = new Manager();
         manager.add(parkingLotTwo);
+        manager.add(smartParkingBoy);
 
         parkingLotThree = new ParkingLot(10, 3);
-        superManager = new SuperManager();
-        superManager.add(parkingLotThree);
-        superManager.add(manager);
+        manager1 = new SuperManager();
+        manager1.add(parkingLotThree);
+        manager1.add(manager);
     }
 
     @Test
     public void shouldAskParkingBoyToPark() throws Exception {
         Car car = new Car(001);
 
-        Ticket ticket = superManager.parkCar(car);
+        Ticket ticket = manager1.parkCar(car);
 
-        assertThat(car, is(superManager.getCar(ticket)));
+        assertThat(car, is(manager1.getCar(ticket)));
     }
 
     @Test
     public void shouldPrintOutResult() throws Exception {
         Car car = new Car(001);
 
-        Ticket ticket = superManager.parkCar(car);
-        superManager.printResult();
+        Ticket ticket = manager1.parkCar(car);
+        manager1.printResult();
 
-        assertThat(car, is(superManager.getCar(ticket)));
+        assertThat(car, is(manager1.getCar(ticket)));
     }
 }

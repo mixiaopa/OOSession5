@@ -26,8 +26,9 @@ public class TestManager {
         parkingBoys.add(smartParkingBoy);
         parkingBoys.add(manager);
 
-        manager = new Manager(parkingBoys);
+        manager = new Manager();
         manager.add(parkingLotTwo);
+        manager.add(smartParkingBoy);
     }
 
     @Test

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/SuperManager.java" afterPath="$PROJECT_DIR$/src/java/SuperManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Manager.java" afterPath="$PROJECT_DIR$/src/java/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/TestManager.java" afterPath="$PROJECT_DIR$/test/java/TestManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/TestSuperManager.java" afterPath="$PROJECT_DIR$/test/java/TestSuperManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,10 +21,10 @@
     <file path="/Manager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384131176340" ignored="false" />
     <file path="/Component.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384091673386" ignored="false" />
     <file path="/Parkable.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384093096617" ignored="false" />
-    <file path="/TestSuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384179230538" ignored="false" />
+    <file path="/TestSuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384180600248" ignored="false" />
     <file path="/SuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384179275641" ignored="false" />
     <file path="$PROJECT_DIR$/test/java/TestPrintResult.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384092289434" ignored="false" />
-    <file path="/Dummy.txt" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384178447028" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384180361558" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/resources/SubProjectProcessor.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384137944385" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/dto/PaymentInfoDTO.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384132597235" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/dto/AccountDTO.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384132650121" ignored="false" />
@@ -91,21 +92,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SuperManager.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SuperManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/SuperManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="30" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#152#162#0" expanded="true" />
-              </folding>
+            <state line="39" column="40" selection-start="907" selection-end="919" vertical-scroll-proportion="0.4277929">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSuperManager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestSuperManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/TestSuperManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="867" selection-end="867" vertical-scroll-proportion="0.050684933">
+            <state line="27" column="35" selection-start="804" selection-end="816" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,8 +113,21 @@
       <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="8" column="29" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#147#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="5" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,15 +155,15 @@
         <option value="$PROJECT_DIR$/test/java/TestParkingLot.java" />
         <option value="$PROJECT_DIR$/src/java/Component.java" />
         <option value="$PROJECT_DIR$/test/java/TestParkingBoy.java" />
-        <option value="$PROJECT_DIR$/test/java/TestManager.java" />
         <option value="$PROJECT_DIR$/test/java/TestSmartParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/java/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/java/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/java/SmartParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/java/Manager.java" />
         <option value="$PROJECT_DIR$/src/java/Parkable.java" />
-        <option value="$PROJECT_DIR$/test/java/TestSuperManager.java" />
         <option value="$PROJECT_DIR$/src/java/SuperManager.java" />
+        <option value="$PROJECT_DIR$/test/java/TestManager.java" />
+        <option value="$PROJECT_DIR$/src/java/Manager.java" />
+        <option value="$PROJECT_DIR$/test/java/TestSuperManager.java" />
       </list>
     </option>
   </component>
@@ -269,9 +281,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -421,6 +433,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -447,19 +472,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -550,10 +562,9 @@
     <frame x="4" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -571,10 +582,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19280575" sideWeight="0.52110815" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47889182" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47889182" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -646,9 +658,7 @@
     <entry file="file://$PROJECT_DIR$/src/java/SuperManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="80" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#152#162#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,15 +695,6 @@
     <entry file="file://$PROJECT_DIR$/test/java/TestParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="14" selection-start="233" selection-end="233" vertical-scroll-proportion="0.28767124">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,25 +743,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/SuperManager.java">
+    <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+        <state line="31" column="5" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#152#162#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="8" column="29" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#147#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestSuperManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="867" selection-end="867" vertical-scroll-proportion="0.050684933">
+        <state line="27" column="35" selection-start="804" selection-end="816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/SuperManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="40" selection-start="907" selection-end="919" vertical-scroll-proportion="0.4277929">
           <folding />
         </state>
       </provider>
