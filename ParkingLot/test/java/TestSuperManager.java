@@ -12,7 +12,6 @@ public class TestSuperManager {
     private ParkingLot parkingLotTwo;
     private SmartParkingBoy smartParkingBoy;
     private List<Parkable> parkingBoys;
-    private List<Parkable> managers;
     private Manager manager;
     private SuperManager superManager;
     private ParkingLot parkingLotThree;
@@ -30,10 +29,9 @@ public class TestSuperManager {
         manager.add(parkingLotTwo);
 
         parkingLotThree = new ParkingLot(10, 3);
-        managers = new ArrayList<Parkable>();
-        managers.add(manager);
-        superManager = new SuperManager(managers);
+        superManager = new SuperManager();
         superManager.add(parkingLotThree);
+        superManager.add(manager);
     }
 
     @Test

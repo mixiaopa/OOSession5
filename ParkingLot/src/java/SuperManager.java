@@ -2,54 +2,45 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SuperManager implements Parkable {
-    private final List<Parkable> managers;
-    private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
-
-    public SuperManager(List<Parkable> managers) {
-        this.managers = managers;
-    }
+    private List<Parkable> parkables = new ArrayList<Parkable>();
 
     @Override
     public Ticket parkCar(Car car) {
-        for (Parkable manager : this.managers) {
-            return manager.parkCar(car);
+        for (Parkable parkable : this.parkables) {
+            return parkable.parkCar(car);
         }
         return null;
     }
 
     @Override
     public Car getCar(Ticket ticket) {
-        for (Parkable manager : this.managers) {
-            return manager.getCar(ticket);
+        for (Parkable parkable : this.parkables) {
+            return parkable.getCar(ticket);
         }
         return null;
     }
 
     @Override
     public void add(Parkable parkable) {
-        parkingLots.add((ParkingLot) parkable);
+        parkables.add(parkable);
     }
 
     @Override
     public void remove(Parkable parkable) {
-        parkingLots.remove(parkable);
+        parkables.remove(parkable);
     }
 
     @Override
     public Parkable getChild(int number) {
-        return (Parkable) parkingLots.get(number);
+        return parkables.get(number);
     }
 
     @Override
     public void printResult() {
         System.out.print("--SuperManager:  ");
-        for (Parkable manager : managers) {
+        for (Parkable parkable : parkables) {
             System.out.print("\n----");
-            manager.printResult();
-        }
-        for (ParkingLot parkingLot : parkingLots) {
-            System.out.print("\n----");
-            parkingLot.printResult();
+            parkable.printResult();
         }
     }
 }
