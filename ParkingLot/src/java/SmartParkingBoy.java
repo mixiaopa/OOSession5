@@ -45,9 +45,9 @@ public class SmartParkingBoy implements Parkable {
 
     @Override
     public void printResult() {
-        System.out.print("SmartParkingBoy:  ");
+        System.out.print("SmartParkingBoy:  \n");
         for (ParkingLot parkingLot : parkingLots) {
-            System.out.print("\n--------");
+            System.out.print("--");
             parkingLot.printResult();
         }
     }

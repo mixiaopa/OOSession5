@@ -54,8 +54,8 @@ public class ParkingLot implements Parkable {
 
     @Override
     public void printResult() {
-        String result = "ParkingLot" +
-                this.id + ": ( " + this.leftLots + " / " + this.size + " )";
+        String result = "--ParkingLot" +
+                this.id + ": ( " + this.leftLots + " / " + this.size + " )\n";
         System.out.print(result);
     }
 

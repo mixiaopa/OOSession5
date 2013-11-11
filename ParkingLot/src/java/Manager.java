@@ -37,9 +37,9 @@ public class Manager implements Parkable {
 
     @Override
     public void printResult() {
-        System.out.print("Manager:  ");
+        System.out.print("--Manager:  \n");
         for (Parkable parkable : parkables) {
-            System.out.print("\n------");
+            System.out.print("--");
             parkable.printResult();
         }
     }
