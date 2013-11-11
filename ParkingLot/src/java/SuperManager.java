@@ -27,17 +27,17 @@ public class SuperManager extends Component implements Parkable {
 
     @Override
     public void add(Parkable parkable) {
-        managers.add(parkable);
+        parkingLots.add((ParkingLot) parkable);
     }
 
     @Override
     public void remove(Parkable parkable) {
-        managers.remove(parkable);
+        parkingLots.remove(parkable);
     }
 
     @Override
     public Parkable getChild(int number) {
-        return (Parkable) managers.get(number);
+        return (Parkable) parkingLots.get(number);
     }
 
     @Override
