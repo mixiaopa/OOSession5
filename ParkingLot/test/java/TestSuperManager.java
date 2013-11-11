@@ -10,9 +10,6 @@ import static org.junit.Assert.assertThat;
 public class TestSuperManager {
     private ParkingLot parkingLot;
     private ParkingLot parkingLotTwo;
-    private List<ParkingLot> parkingLots;
-    private List<ParkingLot> parkingLotsTwo;
-    private List<ParkingLot> parkingLotsThree;
     private SmartParkingBoy smartParkingBoy;
     private List<Parkable> parkingBoys;
     private List<Parkable> managers;
@@ -23,26 +20,20 @@ public class TestSuperManager {
     @Before
     public void setUp() throws Exception {
         parkingLot = new ParkingLot(10, 1);
-        parkingLots = new ArrayList<ParkingLot>();
-        parkingLots.add(parkingLot);
-
-        parkingLotTwo = new ParkingLot(2, 2);
-        parkingLotsTwo = new ArrayList<ParkingLot>();
-        parkingLotsTwo.add(parkingLotTwo);
-
-        smartParkingBoy = new SmartParkingBoy(parkingLots);
+        smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.add(parkingLot);
 
         parkingBoys = new ArrayList<Parkable>();
         parkingBoys.add(smartParkingBoy);
-        manager = new Manager(parkingLotsTwo, parkingBoys);
+        manager = new Manager(parkingBoys);
+        parkingLotTwo = new ParkingLot(2, 2);
+        manager.add(parkingLotTwo);
 
         parkingLotThree = new ParkingLot(10, 3);
-        parkingLotsThree = new ArrayList<ParkingLot>();
-        parkingLotsThree.add(parkingLotThree);
-
         managers = new ArrayList<Parkable>();
         managers.add(manager);
-        superManager = new SuperManager(parkingLotsThree, managers);
+        superManager = new SuperManager(managers);
+        superManager.add(parkingLotThree);
     }
 
     @Test

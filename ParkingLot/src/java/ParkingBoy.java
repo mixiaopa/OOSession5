@@ -1,11 +1,8 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class ParkingBoy extends Component implements Parkable {
-    private final List<ParkingLot> parkingLots;
-
-    public ParkingBoy(List<ParkingLot> parkingLots) {
-        this.parkingLots = parkingLots;
-    }
+    private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 
     @Override
     public Ticket parkCar(Car car) {

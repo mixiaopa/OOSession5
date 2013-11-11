@@ -10,8 +10,6 @@ import static org.junit.Assert.assertThat;
 public class TestManager {
     private ParkingLot parkingLot;
     private ParkingLot parkingLotTwo;
-    private List<ParkingLot> parkingLots;
-    private List<ParkingLot> parkingLotsTwo;
     private SmartParkingBoy smartParkingBoy;
     private List<Parkable> parkingBoys;
     private Manager manager;
@@ -19,19 +17,17 @@ public class TestManager {
     @Before
     public void setUp() throws Exception {
         parkingLot = new ParkingLot(10, 1);
-        parkingLots = new ArrayList<ParkingLot>();
-        parkingLots.add(parkingLot);
+        smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.add(parkingLot);
 
         parkingLotTwo = new ParkingLot(2, 2);
-        parkingLotsTwo = new ArrayList<ParkingLot>();
-        parkingLotsTwo.add(parkingLotTwo);
-
-        smartParkingBoy = new SmartParkingBoy(parkingLots);
 
         parkingBoys = new ArrayList<Parkable>();
         parkingBoys.add(smartParkingBoy);
         parkingBoys.add(manager);
-        manager = new Manager(parkingLotsTwo, parkingBoys);
+
+        manager = new Manager(parkingBoys);
+        manager.add(parkingLotTwo);
     }
 
     @Test

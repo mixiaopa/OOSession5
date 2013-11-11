@@ -1,9 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -11,16 +8,14 @@ public class TestSmartParkingBoy {
     private SmartParkingBoy smartParkingBoy;
     private ParkingLot parkingLot;
     private ParkingLot parkingLotTwo;
-    private List<ParkingLot> parkingLots;
 
     @Before
     public void setUp() throws Exception {
         parkingLot = new ParkingLot(10, 1);
         parkingLotTwo = new ParkingLot(2, 2);
-        parkingLots = new ArrayList<ParkingLot>();
-        parkingLots.add(parkingLot);
-        parkingLots.add(parkingLotTwo);
-        smartParkingBoy = new SmartParkingBoy(parkingLots);
+        smartParkingBoy = new SmartParkingBoy();
+        smartParkingBoy.add(parkingLot);
+        smartParkingBoy.add(parkingLotTwo);
     }
 
     @Test

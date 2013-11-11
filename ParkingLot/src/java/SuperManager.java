@@ -1,11 +1,11 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class SuperManager extends Component implements Parkable {
-    private final List<ParkingLot> parkingLots;
     private final List<Parkable> managers;
+    private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 
-    public SuperManager(List<ParkingLot> parkingLots, List<Parkable> managers) {
-        this.parkingLots = parkingLots;
+    public SuperManager(List<Parkable> managers) {
         this.managers = managers;
     }
 

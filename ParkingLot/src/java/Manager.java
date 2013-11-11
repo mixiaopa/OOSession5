@@ -1,11 +1,11 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Manager extends Component implements Parkable {
-    private final List<ParkingLot> parkingLots;
     private final List<Parkable> parkingBoys;
+    private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 
-    public Manager(List<ParkingLot> parkingLots, List<Parkable> parkingBoys) {
-        this.parkingLots = parkingLots;
+    public Manager(List<Parkable> parkingBoys) {
         this.parkingBoys = parkingBoys;
     }
 
@@ -27,17 +27,17 @@ public class Manager extends Component implements Parkable {
 
     @Override
     public void add(Parkable parkable) {
-        parkingBoys.add(parkable);
+        parkingLots.add((ParkingLot) parkable);
     }
 
     @Override
     public void remove(Parkable parkable) {
-        parkingBoys.remove(parkable);
+        parkingLots.remove(parkable);
     }
 
     @Override
     public Parkable getChild(int number) {
-        return (Parkable) parkingBoys.get(number);
+        return (Parkable) parkingLots.get(number);
     }
 
     @Override
