@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SmartParkingBoy extends Component implements Parkable {
+public class SmartParkingBoy implements Parkable {
     private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 
     @Override

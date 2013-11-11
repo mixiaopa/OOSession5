@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SuperManager extends Component implements Parkable {
+public class SuperManager implements Parkable {
     private final List<Parkable> managers;
     private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 

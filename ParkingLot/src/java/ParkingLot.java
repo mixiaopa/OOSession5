@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParkingLot extends Component implements Parkable {
+public class ParkingLot implements Parkable {
     private int leftLots;
     private List<Car> parkedCars;
     private int size;
