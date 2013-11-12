@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SmartParkingBoy implements Parkable {
+public class SmartParkingBoy extends ParkingBoy {
     private List<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
 
     @Override
@@ -34,21 +34,13 @@ public class SmartParkingBoy implements Parkable {
     }
 
     @Override
-    public void remove(Parkable parkable) {
-        parkingLots.remove(parkable);
-    }
-
-    @Override
-    public Parkable getChild(int number) {
-        return parkingLots.get(number);
-    }
-
-    @Override
-    public void printResult() {
-        System.out.print("SmartParkingBoy:  \n");
+    public String printResult(String prefix) {
+        String result = prefix + "SmartParkingBoy:  \n";
+        System.out.print(result);
+        prefix += "--";
         for (ParkingLot parkingLot : parkingLots) {
-            System.out.print("--");
-            parkingLot.printResult();
+            result += parkingLot.printResult(prefix);
         }
+        return result;
     }
 }

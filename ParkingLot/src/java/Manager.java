@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Manager implements Parkable {
+public class Manager extends ParkingBoy {
     private List<Parkable> parkables = new ArrayList<Parkable>();
 
     @Override
@@ -26,21 +26,13 @@ public class Manager implements Parkable {
     }
 
     @Override
-    public void remove(Parkable parkable) {
-        parkables.remove(parkable);
-    }
-
-    @Override
-    public Parkable getChild(int number) {
-        return parkables.get(number);
-    }
-
-    @Override
-    public void printResult() {
-        System.out.print("--Manager:  \n");
+    public String printResult(String prefix) {
+        String result = prefix + "Manager:  \n";
+        System.out.print(result);
+        prefix += "--";
         for (Parkable parkable : parkables) {
-            System.out.print("--");
-            parkable.printResult();
+            result += parkable.printResult(prefix);
         }
+        return result;
     }
 }

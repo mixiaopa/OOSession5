@@ -44,8 +44,15 @@ public class TestBiggerManager {
         Car car = new Car(001);
 
         Ticket ticket = biggerManager.parkCar(car);
-        biggerManager.printResult();
+        String testResult = biggerManager.printResult("--");
 
         assertThat(car, is(biggerManager.getCar(ticket)));
+        assertThat(testResult.contains(
+                "--Manager:  \n" +
+                "----ParkingLot3: ( 9 / 10 )\n" +
+                "----Manager:  \n" +
+                "------ParkingLot2: ( 2 / 2 )\n" +
+                "------SmartParkingBoy:  \n" +
+                "--------ParkingLot1: ( 10 / 10 )"), is(true));
     }
 }

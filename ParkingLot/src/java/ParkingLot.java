@@ -53,10 +53,11 @@ public class ParkingLot implements Parkable {
     }
 
     @Override
-    public void printResult() {
-        String result = "--ParkingLot" +
+    public String printResult(String prefix) {
+        String result = prefix + "ParkingLot" +
                 this.id + ": ( " + this.leftLots + " / " + this.size + " )\n";
         System.out.print(result);
+        return result;
     }
 
     public int getSize() {

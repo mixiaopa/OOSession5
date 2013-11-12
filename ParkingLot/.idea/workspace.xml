@@ -3,36 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Manager.java" afterPath="$PROJECT_DIR$/src/java/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Parkable.java" afterPath="$PROJECT_DIR$/src/java/Parkable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/ParkingBoy.java" afterPath="$PROJECT_DIR$/src/java/ParkingBoy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/ParkingLot.java" afterPath="$PROJECT_DIR$/src/java/ParkingLot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/SmartParkingBoy.java" afterPath="$PROJECT_DIR$/src/java/SmartParkingBoy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/TestBiggerManager.java" afterPath="$PROJECT_DIR$/test/java/TestBiggerManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParkingLot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384091872803" ignored="false" />
+    <file path="/fragment.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384262538315" ignored="false" />
     <file path="/TestParkingLot.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384078106983" ignored="false" />
     <file path="/TestParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384130584217" ignored="false" />
-    <file path="/ParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384180887065" ignored="false" />
+    <file path="/ParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384263454839" ignored="false" />
     <file path="/TestSmartParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384088641867" ignored="false" />
-    <file path="/SmartParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384181007134" ignored="false" />
-    <file path="/ParkingLot.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384092862966" ignored="false" />
+    <file path="/SmartParkingBoy.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384263931206" ignored="false" />
+    <file path="/ParkingLot.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384263094390" ignored="false" />
     <file path="/Ticket.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384087704606" ignored="false" />
     <file path="/TestManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384090411457" ignored="false" />
-    <file path="/Manager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384131176340" ignored="false" />
+    <file path="/Manager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384263900342" ignored="false" />
     <file path="/Component.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384091673386" ignored="false" />
-    <file path="/Parkable.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384093096617" ignored="false" />
+    <file path="/Parkable.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384262429100" ignored="false" />
     <file path="/TestSuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384181582863" ignored="false" />
     <file path="/SuperManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384179275641" ignored="false" />
     <file path="$PROJECT_DIR$/test/java/TestPrintResult.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384092289434" ignored="false" />
-    <file path="/Dummy.txt" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384184000271" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384262560283" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/resources/SubProjectProcessor.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384137944385" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/dto/PaymentInfoDTO.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384132597235" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/dto/AccountDTO.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384132650121" ignored="false" />
     <file path="/ProjectProcessor.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384148528810" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/resources/ProjectProcessor.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384148531661" ignored="false" />
-    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/AccountFixture.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384159551717" ignored="false" />
-    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/resources/AccountProcessorTest.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384148765554" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/AccountFixture.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384218499315" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/resources/AccountProcessorTest.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384218499315" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/FinanceTalkService.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384218499315" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/PaymentFixture.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384218499315" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/main/java/com/thoughtworks/financetalk/core/AccountCreation.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384250390147" ignored="false" />
+    <file path="$USER_HOME$/TechOpsCodeBase/financetalk/src/test/java/com/thoughtworks/financetalk/core/AccountCreationTest.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384250810914" ignored="false" />
+    <file path="/TestBiggerManager.java" changelist="8f7420ab-1c0f-40f9-b6b9-8601be394d1c" time="1384263654531" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,30 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestBiggerManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestBiggerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="32" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#147#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ParkingBoy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/ParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="41" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+            <state line="43" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#150#160#0" expanded="true" />
               </folding>
@@ -124,21 +111,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingLot.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="5" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#146#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingLot.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="27" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="1.6548913">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmartParkingBoy.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SmartParkingBoy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/SmartParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="33" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.59945506">
+            <state line="35" column="0" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#159#171#0" expanded="true" />
+                <element signature="e#158#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,14 +178,14 @@
         <option value="$PROJECT_DIR$/src/java/Component.java" />
         <option value="$PROJECT_DIR$/test/java/TestParkingBoy.java" />
         <option value="$PROJECT_DIR$/test/java/TestSmartParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/java/Parkable.java" />
         <option value="$PROJECT_DIR$/src/java/SuperManager.java" />
         <option value="$PROJECT_DIR$/test/java/TestManager.java" />
         <option value="$PROJECT_DIR$/test/java/TestSuperManager.java" />
+        <option value="$PROJECT_DIR$/src/java/Parkable.java" />
+        <option value="$PROJECT_DIR$/src/java/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/java/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/test/java/TestBiggerManager.java" />
         <option value="$PROJECT_DIR$/src/java/Manager.java" />
-        <option value="$PROJECT_DIR$/src/java/ParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/java/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/java/SmartParkingBoy.java" />
       </list>
     </option>
@@ -218,8 +227,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,6 +283,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,7 +588,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49078947" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276316" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -596,11 +604,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19280575" sideWeight="0.52110815" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47889182" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19280575" sideWeight="0.52242744" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47757256" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276316" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -669,6 +678,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/SmartParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="33" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#158#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestBiggerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -697,25 +715,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="528" selection-end="528" vertical-scroll-proportion="0.6328767">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Parkable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="244" selection-end="244" vertical-scroll-proportion="0.17213115">
           <folding />
         </state>
       </provider>
@@ -727,9 +729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
+    <entry file="file://$PROJECT_DIR$/test/java/TestParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="874" selection-end="874" vertical-scroll-proportion="0.8630137">
+        <state line="59" column="55" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,32 +740,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="233" selection-end="233" vertical-scroll-proportion="-0.08719346">
+        <state line="22" column="39" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Parkable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="123" selection-end="123" vertical-scroll-proportion="0.08630137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestBiggerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="50" column="16" selection-start="1463" selection-end="1463" vertical-scroll-proportion="1.3232877">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="32" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+        <state line="6" column="5" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#147#157#0" expanded="true" />
+            <element signature="e#146#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/SmartParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#158#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+        <state line="43" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#150#160#0" expanded="true" />
           </folding>
@@ -772,17 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="1.6548913">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/SmartParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="33" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.59945506">
-          <folding>
-            <element signature="e#159#171#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

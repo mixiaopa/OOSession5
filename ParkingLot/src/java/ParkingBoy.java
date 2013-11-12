@@ -37,11 +37,13 @@ public class ParkingBoy implements Parkable {
     }
 
     @Override
-    public void printResult() {
-        System.out.print("ParkingBoy:  \n");
+    public String printResult(String prefix) {
+        String result = prefix + "ParkingBoy:  \n";
+        System.out.print(result);
+        prefix += "--";
         for (Parkable parkable : parkables) {
-            System.out.print("--");
-            parkable.printResult();
+            result += parkable.printResult(prefix);
         }
+        return result;
     }
 }
